@@ -1,1 +1,77 @@
 
+body {
+  font-family: helvetica;
+}
+
+header {
+  height: 120px;
+  background-color: darkslategray;
+  width: 100%;
+}
+
+.inside-header {
+  width: 960px;
+  margin: 0 auto;
+}
+
+header li {
+  float: left;
+  color: white;
+  margin: 30px 0 50px 55px;
+  padding: 15px;
+  font-size: 25px;
+}
+
+header img {
+  float: left;
+  margin: 15px 0 15px 0;
+}
+
+main {
+  width: 960px;
+  margin: 30px auto;
+}
+main li {
+  float: left;
+  margin-right: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+main li:last-child {
+  margin-right: 0;
+}
+
+#featurepic {
+  float: left;
+  margin: 30px;
+}
+
+section h2 {
+  font-size: 35px;
+  margin: 30px;
+}
+
+section p {
+  line-height: 30px;
+  margin: 30px;
+}
+
+ #cta {
+  float: right;
+  color: white;
+  background-color: black;
+  border: 1px solid slategray;
+  border-radius: 8px;
+  font-size: 28px;
+  margin: 15px;
+  padding: 10px 20px;
+}
+
+footer {
+  clear: both;
+  height: 120px;
+  width: 100%;
+  background-color: darkslategray;
+}
+
